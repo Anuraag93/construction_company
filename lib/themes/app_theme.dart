@@ -44,9 +44,7 @@ class AppTheme {
         iconTheme: IconThemeData(color: AppColors.onPrimaryColor[brightness]),
         systemOverlayStyle: SystemUiOverlayStyle(
             statusBarBrightness: brightness,
-            statusBarIconBrightness: brightness == Brightness.dark
-                ? Brightness.light
-                : Brightness.dark,
+            statusBarIconBrightness: brightness,
             statusBarColor: Colors.transparent));
   }
 }
